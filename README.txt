@@ -1,32 +1,20 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Hi there!
 
+My repositories are updated to show my emerging data science and geospatial analytics skills
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+I'm incredibly passionate about anything Maritime-related, Humanitarian-related, and Systems Theory (the list could really go on and on)
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+I’m ready for a new career step - don't hesitate to get in touch with me if you have a job opportunity or are looking to collaborate on a project!
 
-(* = not included)
+💬 Ask me about my background in global politics and ethnic studies and how I plan to combine it with data analytics
 
-AJ
-aj@lkn.io | @ajlkn
+Fun Fact:
 
+I am an avid sailor and am also passionate about hiking and painting landscapes
 
-Credits:
+Contact:
 
-	Demo Images:
-		Unsplash (unsplash.com)
+How to reach me: lilabell14@sbcglobal.net
 
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Let's chat on https://www.linkedin.com/in/lila-bell/
+		
