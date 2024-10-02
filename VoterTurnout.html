@@ -48,7 +48,9 @@
 										<h3>Challenge</h3>
 										<p>To derive specific information about voters through various data engineering tasks. Preparing election result data for predictive analysis requires careful handling of datasets.</p>
 									</header>
-								Using the Standard Deviation classification method, this choropleth map shows values through a diverging color scheme. Values are categorized based on their devation from the average. Counties with below-average voter turnout are shown in purple, while those with above-average turnout are shown in green.
+								Using the Standard Deviation classification method, this choropleth map shows values through a diverging color scheme. Values are categorized based on their devation from the average. Counties with below-average voter turnout are shown in purple, while those with above-average turnout are shown in green. <br />
+								Underneath the map, the histogram shows the distribution of voter turnout by measuring the frequency at which values appear in the dataset. The x-axis represents different bins of voter turnout values. The y-axis measures the number of counties with voter turnout values falling within each range. 
+								
 								<hr />
 								
 								<h2>Workflow Steps</h2>
@@ -61,6 +63,9 @@
 												<li>Utilized different visualization techniques to explore the relationships between voter turnout and demographic variables</li>
 												<li>Used layer symbology to visualize the spatial distribution of voter turnout across the country</li>
 												<li>Explored variable relationships in a scatterplot matrix</li>
+												<li> <div class="image main"><img src="images/VoterTurnoutGraphs2.pdf" alt="" /></div> </li>
+												<li>The relationship between voter turnout and other variables are explored in this scatterplot matrix. The mini-plots in the matrix are visualized with a color gradient that corresponds to the strength of the R-squared value. The larger preview plot highlights the relationship between 2020 Voter Turnout and 2016 Voter Turnout. The 2016 Voter Turnout has a positive relationship with 2020's voter turnout, where a higher 2016 Voter Turnout value corresponds to a higher 2020 voter turnout. The R-squared value for this trend is 0.83, which means that the 2016 Voter Turnout alone can explain about 83 percent of the variability in the voter turnout values.<br />
+													While every pairwise combination of variables is plotted in the matrix, you are specifically interested in how each variable relates to voter turnout. The column of mini-plots on the far left includes the relationships between voter turnout and the other variables. /li>
 											</ul>
 											
 											<p><b>Datasets:<b/> <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VOQCHQ">Harvard Dataverse</a>, <a href="https://www.census.gov/">United States Census Bureau</a></p>
