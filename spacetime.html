@@ -48,8 +48,7 @@
 										<h3>Challenge</h3>
 										<p>To incorporate the spatial and temporal aspects of the data to help understand its spatiotemporal trends. To create and become familiar with the space-time cube to use with the Emerging Hot Spot Analysis and Local Outlier Analysis tools.</p>
 									</header>
-								The Space-Time Pattern Mining 2D map illustrates 2019 SNAP participation rates for counties in the contiguous United States. The color scheme uses the Mann-Kendall statistic to identify areas that have increased rates (purple) or decreased rates (green) of SNAP participation over time.<br />
-								Tools including a hot spot analysis and an outlier analysis were used to identify areas with statistically significantly high SNAP participation in the contiguous United States during 2019. This information can help in the allocation of SNAP resources to areas of higher food insecurities and can help drive decisions to distribute resources in a more efficient and equitable way.<br/ >
+								The map illustrates 2019 SNAP participation rates for counties in the contiguous United States. The color scheme uses the Mann-Kendall statistic to identify areas that have increased rates (purple) or decreased rates (green) of SNAP participation over time.<br />
 								Underneath the map, the scatterplot shows statistically significant clusters of high and low values as well as outliers that have values that are statistically different from their neighbors in space and time.
 								<hr />
 								
@@ -58,13 +57,13 @@
 										<div class="col-12">
 									
 											<ul>
-												Detecting Patterns:
+												<b>Detecting Patterns:<b/ >
 												<li>Ran a hot spot analysis to analyze patterns of high and low values of SNAPrate (a percentage of eligible people who participate in the SNAP program in each county). The result is a layer displaying hot spots in three shades of red and cold spots in three shades of blue. The varying shades correspond to three confidence intervals, indicating how confident one can be that these patterns are not the result of random chance.</li>
 												<li>Reviewed the analysis details to ensure that the parameters were appropriate for the analysis of SNAP participation. After careful review, the default distance band was reduced from 150 kilometers to 75 kilometers to detect more local patterns in this county-level dataset</li>
 												<li>Interpreted the data and found that generally, the southeastern areas of the contiguous United States have statistically significantly high SNAP participation, and the north-central areas of the contiguous United States have statistically significantly low SNAP participation</li>
 												<li>Ran an outlier analysis tool</li>
 												
-												Exploring data patterns using space-time mining tools:
+												<b>Exploring data patterns using space-time mining tools:</b>
 												<li>Analyzed fixed locations (counties) with an attribute (SNAP rates) that changes over time by creating a space-time cube with input from defined locations</li>
 												<li>Visualized the results of the space-time cube in 2D. The result shows varying shades of purple and green to indicate how confident that one can be that these increased and decreased trends are not random and represent meaningful patterns</li>
 												<li>Visualized the results of the space-time cube in an interactive 3D environment using scenes</li>
