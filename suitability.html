@@ -45,7 +45,7 @@
 								<li><a href="https://www.arcgis.com/home/item.html?id=fc530feb4ffb489484b359f4a5b7cebe">Click here for Data Sources</a></li>
 								 </p>
 								</section>
-							<h2>Identifying criteria</h2>
+							
 
 <h3>Criteria Table</h3>
 									<div class="table-wrapper">
@@ -103,16 +103,38 @@
 													<td>Dist_Biol</td>
 												</tr>
 											</tbody>
-											<tfoot>
-												<tr>
-													<td colspan="2"></td>
-													<td>100.00</td>
-												</tr>
-											</tfoot>
+											
 										</table>
 									</div>
 
 									<hr />
+
+								
+								<h2>Workflow Steps</h2>
+									<div class="row">
+										<div class="col-12">
+									
+											<ul>
+												<li>Identify the criteria (see above)</li>
+												<li>Used the Surface Parameters geoprocessing tool to derive a slope layer from the elevation base dataset</li>
+												<li>Used the Distance Accumulation geoprocessing tool to derive the Euclidean distance from the major roads</li>
+												<li>Created a submodel within the Suitability Modeler for the building site objective</li>
+												<li>Built a query to identify restricted locations within the study area</li>
+												<li>Transformed land use categorical values to a common scale in order to weigh these criteria relative to each other</li>
+												<li>Transformed continuous criteria, such as slope, for the submodel. The resulting Transformed Slope layer is set to a common preference scale ranging from 1 to 10, where 1 is not preferable and 10 is very preferable. The most preferred areas are in green and the least preferred areas are in red. The same was performed for the Dist_MRoads and Views_Zero layers</li>
+												<li>Weighted the criteria relative to one another before combining them using the multiplier method</li>
+												<li>Combined four submodels</li>
+												<li>Used the full-resolution suitability map to identify the best location for the headquarters using specified spatial requirements</li>
+												<li>Analyzed the results by visually confirming that the sites meet the required criteria</li>
+								
+											</ul>
+												
+								</div>
+
+								<hr />		
+
+
+						
 
 					</div>
 <!-- Table -->
