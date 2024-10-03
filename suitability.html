@@ -47,7 +47,75 @@
 								</section>
 
 					</div>
+<!-- Table -->
+									<h2>Identifying criteria</h2>
 
+<h3>Criteria Table</h3>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Criteria</th>
+													<th>Required data</th>
+													<th>Derived criteria layer name</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Wetlands and high-density areas are less preferred</td>
+													<td>Land-use layer</td>
+													<td>LandUse</td>
+												</tr>
+												<tr>
+													<td>Steep slopes are less preferred</td>
+													<td>Elevation layer</td>
+													<td>Slope</td>
+												</tr>
+												<tr>
+													<td>Closer to major roads is preferred</td>
+													<td>Distance from major roads layer</td>
+													<td>Dist_MRoads</td>
+												</tr>
+												<tr>
+													<td>Visibility from major roads is less preferred</td>
+													<td>Viewshed layer</td>
+													<td>Views</td>
+												</tr>
+												<tr>
+													<td>Closer to electric lines (to connect solar energy to the utility grid) is preferred</td>
+													<td>Electric distributions layer</td>
+													<td>Dist_Elect</td>
+												</tr>
+                        <tr>
+													<td>Closer to recreational areas is preferred</td>
+													<td>Recreation layer</td>
+													<td>Dist_Rec</td>
+                          <tr>
+													<td>Farther from protected areas is preferred</td>
+													<td>Protected areas layer</td>
+													<td>Dist_Protect</td>
+												</tr>
+                        <tr>
+													<td>Farther from wetlands is preferred</td>
+													<td>Wetlands layer</td>
+													<td>Dist_Wetlands</td>
+												</tr>
+								 <tr>
+													<td>Farther from biological areas is preferred</td>
+													<td>Biological areas layer</td>
+													<td>Dist_Biol</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<hr />
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
