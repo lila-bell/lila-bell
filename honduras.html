@@ -36,16 +36,46 @@
 
 						<!-- Post -->
 							<section class="post">
-								
+								<header class="major">
+									
+									<h1> Honduras in 3D</h1>
+									<p>Exploring the capabilities of the Rayshader package in R</p>
+								</header>	
 								<div <a href="images/honduras-3d-elevation-rivers.jpg" class="image fit"><img src="images/honduras-3d-elevation-rivers.jpg" alt=""></a></div>
 								
-								<p> This map shows X <br />
-								<br />
-								Dataset: <li><a href="https://www.hydrosheds.org/products/hydrorivers">HydroRIVERS Database</a></li>
+								<p> This map is a 3D rending of the Honduras's elevation and river system. It shows a vectorized line network of all rivers in Honduras that have a catchment area of at least 10 km² or an average river flow of at least 0.1 m³/sec, or both. <br />
+								<p>The following R packages are used: Terra to deal with raster files, Elevatr to use the Digital Elevation Model, sf to capture vector format of rivers, Geodata to cut rivers according to boundaries of Honduras, and Rayshader to turn 2D into 3D plots</p>
+									<br />
+							
+									<h2>Workflow Steps</h2>
+									<div class="row">
+										<div class="col-12">
+									
+											<ul>
+												<li>Used geodata package to fetch the national boundaries (polygon) of Honduras</li>
+												<li>Downloaded shapefile format of North and Central America river data from HydroSheds</li>
+												<li>Loaded HydroSheds data into R and created a bounding box of Honduras using the SF package and its function st_bbox to see the minimum and maximum longitude and latitude</li>
+												<li>Built a query to create a polygon out of the longitude and latitude values</li>
+												<li>Clipped the country polygon so that only the rivers inside the borders of Honduras are included</li>
+												<li>Determined the various river widths</li>
+												<li>Used eps.io to reproject rivers into the coordinate reference system for Honduras</li>
+												<li>Fetched the digital elevation model (DEM) and defined the clipping method to use only what is within the borders of Honduras</li>
+												<li>Transformed the digital elevation model from a raster file to a matrix</li>
+												<li>Rendered the scene with Rayshader</li>
+												<li>Rendered and saved object as an image</li>
+												
+											
+											</ul>
+								Dataset: <li><a href="https://www.hydrosheds.org/products/hydrorivers">HydroRIVERS</a></li>
 								 </p>
 								</section>
 
 					</div>
+
+
+
+			
+							
 
 				<!-- Footer -->
 					<footer id="footer">
