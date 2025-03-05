@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>People Analytics</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+
+				<!-- Nav -->
+				
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							
+						</ul>
+						<ul class="icons">
+							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									
+									<h1>Case study: People Analytics</h1>
+									<p>A deeper look into organizational initiatives using a combination of R & Excel</p>
+								</header>	
+								<div <a href="images/" class="image fit"><img src="images/" alt=""></a></div>
+								
+								<p> This case study analyzes a dataset to assess the impact of organizational initiatives on inclusivity, engagement, and employee retentionton. R is used to determine statistically significant impacts.<br />
+									<br />
+							
+									<h2>Workflow Steps</h2>
+									<div class="row">
+										<div class="col-12">
+									
+											<ul>
+												<li><u>Data Preparation</u></li>
+                        <li>Cleaned dataset by identifying and correcting issues such redundant data, removed sensitive information for anonymity and sorted data by employee ID.</li>
+										    <li>Applied data validation to ensure consistent values and remove outliers (e.g., marital status, gender, engagement scores)</li>
+                        <li><u>Data Preparation</u></li>
+                        <li>Recruitment at Diversity Job Fair</li>
+												<li>Cleaned data by removing extra spaces in "M " for males</li>
+												<li>Used COUNTIFS to count and filter male/female employees based on employment status and recruitment method (Diversity Job Fair vs. Traditional)</li>
+												<li>Calculated race frequencies using COUNT and derived percentages for diversity breakdown</li>
+												<li>Performed t-Test comparing job performance and engagement scores between Diversity Job Fair and traditional recruits</li>
+												<li>Found <b>85% turnover</b> was from traditionally recruited employees, while <b>15%</b> were Diversity Job Fair recruits</li>
+                        <li><u>Age Diversity Analysis</u></li>
+												<li>Created PivotTable to calculate mean and standard deviation for employee age</li>
+												<li>Analyzed <b>correlation between age and engagement</b>, finding a negligible correlation coefficient of <b>0.0633</b></li>
+												<li>Conducted simple regression to test if age predicts engagement and job performance:</li>
+												<li><b>R-squared for engagement: 0.002</b>, showing no significant relationship</li>
+                        <li><b>R-squared for performance: 0.004</b>, showing no statistical significance.</li>
+                        <li><u>Engagement and Outcomes</u></li>
+                        <li>Focused on current employees to measure engagement's impact on job performance and intentions to stay</li>
+                        <li>Conducted simple regression analysis</li>
+                        <li><b>Engagement to performance: R-squared = 0.309</b>, indicating <b>30.9%</b> of job performance variability is explained by engagement. <b>p-value < 0.05 </b>, statistically significant</li>
+                        <li><b>Engagement to intentions to stay: R-squared = 0.041</b>, showing a smaller effect but still significant (<b>p-value < 0.05 </b>)</li>
+                        <li><b>Regression coefficients</b>: For performance, each unit increase in engagement led to <b>0.423</b> increase in performance; for intentions to stay, each unit increase in engagement led to 0.243 increase in retention</li>
+                        li><u>Key Insights and Conclusions</u></li>
+                        <li>Gender Breakdown: Slightly more females (56%) than males (44%) in the organization, with similar ratios from the Diversity Job Fair</li>
+                        <li>Diversity: 100% of Diversity Job Fair recruits were African American/Black</li>
+                        <li>Age Analysis: No significant relationship between age and work engagement or performance</li>
+                        <li>Engagement Impact: Strong relationship between engagement and both job performance and intentions to stay</li>
+                        <li>Turnover Insights: Diversity Job Fair recruits showed no higher turnover than traditionally recruited employees, indicating successful inclusivity efforts</li>
+    
+											</ul>
+								Dataset: <li>Fake Dataset</li>
+								 </p>
+								</section>
+
+					</div>
+
+
+
+			
+							
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Name</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Email</label>
+										<input type="text" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Message</label>
+										<textarea name="message" id="message" rows="3"></textarea>
+									</div>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</form>
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Address</h3>
+								<p>New York, New York</p>
+							</section>
+							<section>
+								<h3>Email</h3>
+								<p><a href="#">lilabell14@sbcglobal.net</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">				
+									<li><a href="https://www.linkedin.com/in/lila-bell/" class="icon brands alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
+									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
